@@ -19,6 +19,7 @@ public class LambdaTest extends TestBase{
     @Epic("issues")
     @Test
     public void lambdaStepTest() {
+        //коммент для ветки
         step("Открываем главную страницу", () -> {
             open("https://github.com");
         });
